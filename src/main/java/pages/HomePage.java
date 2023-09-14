@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 public class HomePage extends BasePage {
 
 
-    // WebElements using PageFactory
+
 
     @FindBy(xpath = "//img[@alt='EUREKA FORBES']")
     private WebElement eurekaForbesLogo;
@@ -38,10 +38,10 @@ public class HomePage extends BasePage {
         PageFactory.initElements(driver, this);
     }
 
-    // Sample method
     public String getTitle() {
         return driver.getTitle();
     }
+
     public void clickEurekaForbesLogo() {
         eurekaForbesLogo.click();
     }
@@ -69,8 +69,6 @@ public class HomePage extends BasePage {
     public void clickBuyAMCButton() {
         buyAMCButton.click();
     }
-
-
 
 
 }

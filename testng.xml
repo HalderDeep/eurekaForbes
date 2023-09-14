@@ -5,10 +5,4 @@
             <class name="Tests.HomePageTests"/>
         </classes>
     </test>
-    <test name="MobileTests">
-        <parameter name="platform" value="desktop"/>
-        <classes>
-            <class name="Tests.HomePageTests"/>
-        </classes>
-    </test>
 </suite>
